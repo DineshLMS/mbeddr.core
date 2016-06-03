@@ -29,7 +29,6 @@
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -2813,22 +2812,22 @@
             </node>
             <node concept="3clFbF" id="7wXnfGE7wAS" role="3cqZAp">
               <node concept="2OqwBi" id="CZjRlFElcm" role="3clFbG">
-                <node concept="2OqwBi" id="7wXnfGE7rRN" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7wXnfGE7qSW" role="2Oq$k0">
-                    <node concept="2OqwBi" id="7wXnfGE7q10" role="2Oq$k0">
+                <node concept="2OqwBi" id="6LzhH3u6TJf" role="2Oq$k0">
+                  <node concept="2OqwBi" id="6LzhH3u6ToU" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6LzhH3u6SXR" role="2Oq$k0">
                       <node concept="1rXfSq" id="7wXnfGE7pEm" role="2Oq$k0">
                         <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
                       </node>
-                      <node concept="liA8E" id="7wXnfGE7qyf" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorComponent.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                      <node concept="liA8E" id="6LzhH3u6Tl2" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="7wXnfGE7ruo" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                    <node concept="liA8E" id="6LzhH3u6TFL" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="7wXnfGE7t0c" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+                  <node concept="liA8E" id="6LzhH3u6U38" role="2OqNvi">
+                    <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
                   </node>
                 </node>
                 <node concept="liA8E" id="CZjRlFElco" role="2OqNvi">
