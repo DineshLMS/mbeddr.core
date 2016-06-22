@@ -26,7 +26,7 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.IconResource" flags="ng" index="1QGGSu" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.Icon" flags="ng" index="1QGGSu" />
       <concept id="8974276187400029898" name="jetbrains.mps.lang.resources.structure.Resource" flags="ng" index="1QGGTJ">
         <property id="8974276187400029899" name="path" index="1QGGTI" />
       </concept>
@@ -554,7 +554,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="3x0R1LJ5K16" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/verify.png" />
+      <property role="1QGGTI" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.analyses/languages/com.mbeddr.analyses.cbmc/solutions/pluginSolution/icons/verify.png" />
     </node>
   </node>
   <node concept="sE7Ow" id="3x0R1LJ5K1b">
@@ -882,7 +882,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="7yN$Xh8pdHO" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/verify.png" />
+      <property role="1QGGTI" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.analyses/languages/com.mbeddr.analyses.cbmc/solutions/pluginSolution/icons/verify.png" />
     </node>
     <node concept="2ScWuX" id="7yN$Xh8pdHP" role="tmbBb">
       <node concept="3clFbS" id="7yN$Xh8pdHQ" role="2VODD2">

@@ -114,7 +114,7 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.IconResource" flags="ng" index="1QGGSu" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.Icon" flags="ng" index="1QGGSu" />
       <concept id="8974276187400029898" name="jetbrains.mps.lang.resources.structure.Resource" flags="ng" index="1QGGTJ">
         <property id="8974276187400029899" name="path" index="1QGGTI" />
       </concept>
@@ -632,8 +632,8 @@
       </concept>
       <concept id="1172323065820" name="jetbrains.mps.lang.smodel.structure.Node_GetConceptOperation" flags="nn" index="3NT_Vc" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
+        <reference id="1140138128738" name="concept_old" index="1PxNhF" />
+        <child id="1140138123956" name="leftExpression_old" index="1PxMeX" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -2253,7 +2253,7 @@
       <node concept="1oajcY" id="7uLL3Mf2_Qz" role="1oa70y" />
     </node>
     <node concept="1QGGSu" id="6wvhQs7nVXo" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/terminal.png" />
+      <property role="1QGGTI" value="${module}/icons/terminal.png" />
     </node>
   </node>
   <node concept="tC5Ba" id="7uLL3Mf2Aq0">
@@ -2392,7 +2392,7 @@
       <node concept="1oajcY" id="7uLL3Mf2Q$g" role="1oa70y" />
     </node>
     <node concept="1QGGSu" id="6wvhQs7nVXn" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/terminal.png" />
+      <property role="1QGGTI" value="${module}/icons/terminal.png" />
     </node>
     <node concept="2ScWuX" id="DMIuLumKtp" role="tmbBb">
       <node concept="3clFbS" id="DMIuLumKtq" role="2VODD2">
@@ -4806,7 +4806,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="4ueXZrqt44c" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/search.png" />
+      <property role="1QGGTI" value="${module}/icons/search.png" />
     </node>
   </node>
   <node concept="312cEu" id="2HzhasN$akP">
@@ -6659,7 +6659,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="3slbD0C7$Av" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/check.png" />
+      <property role="1QGGTI" value="${module}/icons/check.png" />
     </node>
     <node concept="2ScWuX" id="3slbD0C7$Aw" role="tmbBb">
       <node concept="3clFbS" id="3slbD0C7$Ax" role="2VODD2">
@@ -12105,7 +12105,7 @@
                             <ref role="3cqZAo" node="79AXByylc$l" resolve="configurableEditor" />
                           </node>
                           <node concept="liA8E" id="79AXByylc_q" role="2OqNvi">
-                            <ref role="37wK5l" to="jkm4:~DialogWrapper.show():void" resolve="show" />
+                            <ref role="37wK5l" to="qxsb:~SingleConfigurableEditor.show():void" resolve="show" />
                           </node>
                         </node>
                       </node>
@@ -12807,7 +12807,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="2Gn1WTgS$Iy" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/search.png" />
+      <property role="1QGGTI" value="${module}/icons/search.png" />
     </node>
     <node concept="2ScWuX" id="2Gn1WTgS_2H" role="tmbBb">
       <node concept="3clFbS" id="2Gn1WTgS_2I" role="2VODD2">
@@ -18789,7 +18789,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="4ppn3W9rIRh" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/fwdIcon.png" />
+      <property role="1QGGTI" value="${module}/icons/fwdIcon.png" />
     </node>
     <node concept="1DS2jV" id="4ppn3W9rIRi" role="1NuT2Z">
       <property role="TrG5h" value="project" />

@@ -34,7 +34,7 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.IconResource" flags="ng" index="1QGGSu" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.Icon" flags="ng" index="1QGGSu" />
       <concept id="8974276187400029898" name="jetbrains.mps.lang.resources.structure.Resource" flags="ng" index="1QGGTJ">
         <property id="8974276187400029899" name="path" index="1QGGTI" />
       </concept>
@@ -754,7 +754,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="5BkFC2yhAJ4" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/verify.png" />
+      <property role="1QGGTI" value="${module}/icons/verify.png" />
     </node>
   </node>
   <node concept="sE7Ow" id="6w9LZ1hC3Vl">
@@ -931,7 +931,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="6w9LZ1hC3WS" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/verify.png" />
+      <property role="1QGGTI" value="${module}/icons/verify.png" />
     </node>
   </node>
   <node concept="sE7Ow" id="EVDykUC7Si">
@@ -1115,7 +1115,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="EVDykUC7UB" role="3Uehp1">
-      <property role="1QGGTI" value="${solution_descriptor}/icons/verify.png" />
+      <property role="1QGGTI" value="${module}/icons/verify.png" />
     </node>
   </node>
   <node concept="312cEu" id="2UdJgvD7tZD">
